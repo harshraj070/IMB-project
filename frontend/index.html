@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blockchain Ledger</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Basic Blockchain Ledger</h1>
+
+            <form id="blockForm">
+                <input type="text" id="dataInput" placeholder="Enter block data" required />
+                <button type="submit">Add Block</button>
+            </form>
+
+            <button onclick="validateChain()">Check Chain Validity</button>
+
+            <h2>Blockchain</h2>
+            <div id="chainDisplay"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
