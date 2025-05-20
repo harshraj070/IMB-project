@@ -1,0 +1,18 @@
+# Ignore node_modules and build output
+node_modules/
+dist/
+
+# Ignore logs and temp files
+*.log
+.env
+
+# DO NOT ignore everything
+# ! negates ignore
+!*.js
+!*.json
+!src/
+!src/**
+
+# Optional: Ignore OS-specific files
+.DS_Store
+Thumbs.db
